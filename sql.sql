@@ -1,0 +1,1 @@
+INSERT INTO `products` (`id`, `name`, `price`, `desc`, `qety`, `created_at`) VALUES (NULL, 'dvd', '20', 'loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem', '10', current_timestamp());
