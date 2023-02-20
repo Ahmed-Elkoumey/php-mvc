@@ -7,7 +7,7 @@
   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
   <a class="btn btn-primary btn-lg " href="<?php url('products') ?>" role="button">SHOW PRODUCTS</a>
 </div>
-gfgg
+
     <?php include(VIEWS.'inc/footer.php')?>
 
     

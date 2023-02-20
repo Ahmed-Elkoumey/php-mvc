@@ -16,4 +16,38 @@ class Product extends DB {
     {
        return $this->conn->get($this->table);
     }
+
+
+
+    public function insertProducts($data)
+    {
+        return $this->conn->insert($this->table,$data);
+    }
+
+
+
+    public function deleteProducts($id)
+    {
+        $db= $this->conn->where('id',$id);
+        return $db->delete($this->table);
+    }
+   
+
+
+    
+   public function getRow($id)
+   {
+    $db= $this->conn->where('id',$id);
+    return $db->getOne($this->table);
+    
+   }
+   
+   
+   
+   public function updateProducts($id,$data)
+    {
+        $db= $this->conn->where('id',$id);
+        return $db->update($this->table,$data);
+    }
+
 }
